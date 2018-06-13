@@ -1,0 +1,191 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+}
+
+/*
+*common
+*/
+ul{
+  padding: 0;
+  list-style-type: none;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+}
+
+
+/*
+*
+*heading
+*/
+.header{
+  font-family: sans-serif,monospace,serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-bottom: 5px solid black;
+  overflow: hidden;
+}
+
+.logo {
+  width: 160px;
+  height: 135px;
+  margin-top: 20px;
+}
+
+.titles{
+  float: right;
+}
+
+.head_title, .head_name{
+  color: #00ff55;
+}
+
+.head_sub, .q{
+  color: Black;
+}
+
+/*
+*social contacts
+*
+*/
+.social_links{
+  float: left;
+  margin-top: 80px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 22px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.fa-twitter, .fa-instagram,
+.fa-github, .fa-google{
+  background: black;
+  color: #8e8e8e;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/*
+*  my info part
+*
+*/
+
+.info{
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  margin-top: 80px;
+  width: 70%;
+}
+
+.info_title{
+  font-size: 25px;
+  font-weight: bold;
+  color: #00ff55;
+}
+
+/*
+*  projects
+*
+*/
+
+.project_img{
+  width: 350px;
+  height: 225px;
+}
+
+.project_title{
+  font-size: 25px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.projects{
+  margin-bottom: 80px;
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.project_tab{
+  margin: 10px;
+}
+
+/*
+* footer
+*/
+.footer{
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 8px 6px 20px 2px rgba(102,99,102,0.81);
+  border: 1px solid #00ff55;
+  background-color: #00ff55;
+  text-align: center;
+  font-size: 20px;
+  width: 85%;
+}
+
+.foot{
+  line-height: 0px;
+}
+
+@media screen and (max-width: 759px){
+  .project_img{
+    max-width: 100%;
+  }
+
+  .projects_tab{
+    width: 100%;
+  }
+  .projects{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    padding-left: 10%;
+  }
+
+  .header{
+    width: 100%;
+  }
+  .social_links{
+    margin-right: 10px;
+  }
+
+  .footer{
+    width: 100%;
+    margin: 0;
+  }
+  .logo {
+    width: 100px;
+    height: 85px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1273px){
+  .projects{
+    padding-left: 160px;
+    text-align: center;
+  }
+
+  .footer{
+    width: 100%;
+  }
+}
