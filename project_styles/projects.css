@@ -22,7 +22,7 @@ ul{
 *heading
 */
 .header{
-  font-family: sans-serif,monospace,serif;
+  font-family: 'Concert One', cursive, sans-serif,monospace,serif;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -76,27 +76,35 @@ ul{
 .project_title{
   font-size: 25px;
   margin: 0;
+  font-family: 'Poor Story', cursive, sans-serif, serif, monospace;
 }
 .proj_info{
+  font-family: 'Righteous', cursive, sans-serif, serif, monospace;
   width: 60%;
   margin-top: 50px;
+  font-size: 20px;
+}
+.info_title{
+  line-height: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: #00ff55;
 }
 
 /*
 * footer
 */
 .footer{
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow: 8px 6px 20px 2px rgba(102,99,102,0.81);
-  border: 1px solid #00ff55;
-  background-color: #00ff55;
+  border: 1px solid #544e4d;
+  background-color: #544e4d;
   text-align: center;
   font-size: 20px;
-  width: 85%;
+  width: 100%;
 }
 
 .foot{
+  color: white;
+  font-family: 'Concert One', cursive, serif, sans-serif;
   line-height: 0px;
 }
 
