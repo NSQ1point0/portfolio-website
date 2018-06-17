@@ -1,5 +1,5 @@
 body{
-  width: 100%;
+  max-width: 100%;
   background-color: #fcfcfc;
 }
 
@@ -23,8 +23,7 @@ a:link, a:visited{
 */
 .header{
   font-family: 'Concert One', cursive, sans-serif,monospace,serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
   width: 80%;
   border-bottom: 5px solid black;
   overflow: hidden;
@@ -59,9 +58,7 @@ a:link, a:visited{
 .welcome{
   text-align: center;
   color: white;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto 0px auto;
   width: 80%;
   height: 500px;
   background-size: 100% 500px;
@@ -86,10 +83,8 @@ a:link, a:visited{
 
 .info{
   font-size: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
-  margin-top: 20px;
+  margin: 120px auto 20px auto;
+
   width: 70%;
   font-family: 'Righteous', cursive, sans-serif, serif, monospace;
 }
@@ -119,10 +114,7 @@ a:link, a:visited{
 }
 
 .projects{
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 80px;
-  margin-top: 40px;
+  margin: 40px auto 80px auto;
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -205,18 +197,9 @@ a:link, a:visited{
 }
 
 @media screen and (max-width: 759px){
-  .project_img{
-    width: 100%;
-  }
-
-  .projects_tab{
-    width: 100%;
-  }
   .projects{
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 0 auto;
     text-align: center;
-    width: 100%;
     padding: 0;
   }
 
