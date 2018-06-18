@@ -46,10 +46,34 @@ a:link, a:visited{
 }
 
 .head_sub, .q{
-  color: Black;
+  color: #2d2d2d;
 }
 
+.nav{
+  width: 100%;
+  overflow: hidden;
+  background-color: #2d2d2d;
+}
 
+.nav_bar{
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+}
+
+.nav_tab a{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 5px;
+}
+
+.nav_tab a:active{
+  color: #2d2d2d;
+  background-color: #00ff55;
+}
 
 /*
 *  Welcome banner
@@ -182,7 +206,7 @@ a:link, a:visited{
   opacity: 0.7;
 }
 
-.Contact{
+.contact{
   width: 50%;
   text-align: right;
   color: white;
@@ -223,6 +247,10 @@ a:link, a:visited{
   }
   .contact_section{
     font-size: 13px;
+  }
+  .nav_tab a{
+    margin: 0;
+    padding: 5px;
   }
 }
 
