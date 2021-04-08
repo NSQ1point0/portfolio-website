@@ -19,7 +19,7 @@ the frontline
 Folder also contain mockup portfolio provided by Udacity
 
 Here are the links for easy access:
-website link: https://numbskullq1.github.io/portfolio-website
-Repo link: https://github.com/NumbSkullq1/portfolio-website
+website link: https://nsq1point0.github.io/portfolio-website
+Repo link: https://github.com/nsq1point0/portfolio-website
 
 Enjoy Have Fun.....
